@@ -28,7 +28,20 @@ namespace Vm.Models
         public string RequesterId { get; set; }
         public ApplicationUser Requester { get; set; }
 
+        // Add validation to ensure that EndDate is after StartDate
+        public bool IsValidRequest()
+        {
+            return EndDate >= StartDate;
+        }
+
+        // Additional helper method for checking if the request is a valid full day or half day
+        public bool IsValidHalfDay()
+        {
+            // Ensures that half-day requests have valid "half day" duration logic (this can be extended)
+            return !IsHalfDay || (IsHalfDay && StartDate.Date == EndDate.Date);
+        }
     }
+
     public enum VacationType
     {
         Paid,

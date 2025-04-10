@@ -875,4 +875,3 @@ C:\Users\bsspi\Desktop\Vacation manager\Vm\VacationManager\Vm\obj\Debug\net9.0\r
 C:\Users\bsspi\Desktop\Vacation manager\Vm\VacationManager\Vm\obj\Debug\net9.0\Vm.pdb
 C:\Users\bsspi\Desktop\Vacation manager\Vm\VacationManager\Vm\obj\Debug\net9.0\Vm.genruntimeconfig.cache
 C:\Users\bsspi\Desktop\Vacation manager\Vm\VacationManager\Vm\obj\Debug\net9.0\ref\Vm.dll
-C:\Users\bsspi\Desktop\Vacation manager\Vm\VacationManager\Vm\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
