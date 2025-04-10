@@ -1,11 +1,11 @@
 ﻿@model IEnumerable<Vm.Models.Team>
 
-<h2>Teams</h2>
-<a asp-action="Create" class="btn btn-primary">Create New Team</a>
+<h2>Team List</h2>
+
 <table class="table">
     <thead>
         <tr>
-            <th>Name</th>
+            <th>Team Name</th>
             <th>Project</th>
             <th>Team Lead</th>
             <th>Actions</th>
@@ -16,13 +16,15 @@
         {
             <tr>
                 <td>@team.Name</td>
-                <td>@team.Project?.Name</td>
-                <td>@team.TeamLead?.FirstName @team.TeamLead?.LastName</td>
+                <td>@team.Project.Name</td>
+                <td>@team.TeamLead.UserName</td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@team.Id" class="btn btn-warning">Edit</a>
-                    <a asp-action="Delete" asp-route-id="@team.Id" class="btn btn-danger">Delete</a>
+                    <a href="@Url.Action("Edit", new { id = team.Id })" class="btn btn-warning">Edit</a>
+                    <a href="@Url.Action("Delete", new { id = team.Id })" class="btn btn-danger">Delete</a>
                 </td>
             </tr>
         }
     </tbody>
 </table>
+
+<a href="@Url.Action("Create")" class="btn btn-primary">Create New Team</a>

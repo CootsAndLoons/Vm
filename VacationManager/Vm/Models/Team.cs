@@ -10,21 +10,22 @@ namespace Vm.Models
         [StringLength(100)]
         public string Name { get; set; }
 
-        // Team Lead (must be a user with Team Lead role)
-        public string TeamLeadId { get; set; }
-        public ApplicationUser TeamLead { get; set; }
-
-        // Project the team is working on
+        [Required]
         public int ProjectId { get; set; }
         public Project Project { get; set; }
 
-        // Team members
-        public ICollection<ApplicationUser> Developers { get; set; }
+        [Required]
+        public string TeamLeadId { get; set; }
+        public ApplicationUser TeamLead { get; set; }
 
-        // Add validation to ensure that only a Team Lead role can be assigned as Team Lead
-        public bool IsValidTeamLead()
+        // Може да бъде и колекция, така че не е нужно да е задължително
+        public ICollection<ApplicationUser> Developers { get; set; } = new List<ApplicationUser>(); // Инициализация по подразбиране
+
+        // Можете да добавите конструктора, ако искате да го направите задължителен
+        public Team()
         {
-            return TeamLead != null && TeamLead.Role?.Name == "Team Lead";
+            Developers = new List<ApplicationUser>(); // За да избегнете null стойности
         }
     }
+
 }

@@ -17,7 +17,6 @@ namespace Vm.Data
         public DbSet<Project> Projects { get; set; }
         public DbSet<VacationRequest> VacationRequests { get; set; }
 
-        // Add DbSet for LeaveHistory
         public DbSet<LeaveHistory> LeaveHistories { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
