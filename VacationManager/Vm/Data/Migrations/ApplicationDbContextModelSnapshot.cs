@@ -240,6 +240,46 @@ namespace Vm.Data.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("Vm.Models.LeaveHistory", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("ApprovalDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ApprovalUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsApproved")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("LeaveType")
+                        .HasColumnType("int");
+
+                    b.Property<string>("RequesterId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ApprovalUserId");
+
+                    b.HasIndex("RequesterId");
+
+                    b.ToTable("LeaveHistories");
+                });
+
             modelBuilder.Entity("Vm.Models.Project", b =>
                 {
                     b.Property<int>("Id")
@@ -418,6 +458,25 @@ namespace Vm.Data.Migrations
                     b.Navigation("Team");
                 });
 
+            modelBuilder.Entity("Vm.Models.LeaveHistory", b =>
+                {
+                    b.HasOne("Vm.Models.ApplicationUser", "ApprovalUser")
+                        .WithMany()
+                        .HasForeignKey("ApprovalUserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("Vm.Models.ApplicationUser", "Requester")
+                        .WithMany("LeaveHistories")
+                        .HasForeignKey("RequesterId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("ApprovalUser");
+
+                    b.Navigation("Requester");
+                });
+
             modelBuilder.Entity("Vm.Models.Team", b =>
                 {
                     b.HasOne("Vm.Models.Project", "Project")
@@ -450,6 +509,8 @@ namespace Vm.Data.Migrations
 
             modelBuilder.Entity("Vm.Models.ApplicationUser", b =>
                 {
+                    b.Navigation("LeaveHistories");
+
                     b.Navigation("VacationRequests");
                 });
 

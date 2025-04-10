@@ -20,5 +20,11 @@ namespace Vm.Models
 
         // Team members
         public ICollection<ApplicationUser> Developers { get; set; }
+
+        // Add validation to ensure that only a Team Lead role can be assigned as Team Lead
+        public bool IsValidTeamLead()
+        {
+            return TeamLead != null && TeamLead.Role?.Name == "Team Lead";
+        }
     }
 }

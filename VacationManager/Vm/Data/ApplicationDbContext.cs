@@ -10,10 +10,15 @@ namespace Vm.Data
             : base(options)
         {
         }
+
+        // DbSets for existing models
         public DbSet<Role> Roles { get; set; }
         public DbSet<Team> Teams { get; set; }
         public DbSet<Project> Projects { get; set; }
         public DbSet<VacationRequest> VacationRequests { get; set; }
+
+        // Add DbSet for LeaveHistory
+        public DbSet<LeaveHistory> LeaveHistories { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -50,7 +55,18 @@ namespace Vm.Data
                 .HasForeignKey(v => v.RequesterId)
                 .OnDelete(DeleteBehavior.Restrict);
 
+            // Configure LeaveHistory relationships
+            builder.Entity<LeaveHistory>()
+                .HasOne(lh => lh.Requester)
+                .WithMany(u => u.LeaveHistories)
+                .HasForeignKey(lh => lh.RequesterId)
+                .OnDelete(DeleteBehavior.Restrict);
 
+            builder.Entity<LeaveHistory>()
+                .HasOne(lh => lh.ApprovalUser)
+                .WithMany()
+                .HasForeignKey(lh => lh.ApprovalUserId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }
