@@ -17,20 +17,29 @@ namespace Vm.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var teams = await _context.Teams.Include(t => t.Project).Include(t => t.TeamLead).ToListAsync();
+            var teams = await _context.Teams.AsNoTracking()
+                .Include(t => t.Project)
+                .Include(t => t.TeamLead)
+                .ToListAsync();
+
+
             return View(teams);
         }
 
+
         public IActionResult Create()
         {
-            ViewData["Projects"] = new SelectList(_context.Projects, "Id", "Name");
-            ViewData["TeamLeads"] = new SelectList(
+            // Попълване на ViewBag за проекти и лидери на екипи
+            ViewBag.Projects = new SelectList(_context.Projects, "Id", "Name");
+            ViewBag.TeamLeads = new SelectList(
                 _context.Users.Where(u => u.Role.Name == "Team Lead"),
                 "Id",
                 "UserName" // Или FirstName + LastName
             );
+
             return View();
         }
+
 
 
         [HttpPost]
@@ -49,17 +58,23 @@ namespace Vm.Controllers
         public async Task<IActionResult> Edit(int id)
         {
             var team = await _context.Teams.FindAsync(id);
-            if (team == null) return NotFound();
+            if (team == null)
+            {
+                return NotFound();
+            }
 
-            ViewData["Projects"] = new SelectList(_context.Projects, "Id", "Name", team.ProjectId);
-            ViewData["TeamLeads"] = new SelectList(
-                _context.Users.Where(u => u.Role != null && u.Role.Name == "Team Lead"),
+            // Подаваме проектите и лидерите на екипи чрез ViewBag
+            ViewBag.Projects = new SelectList(_context.Projects, "Id", "Name", team.ProjectId);
+            ViewBag.TeamLeads = new SelectList(
+                _context.Users.Where(u => u.Role.Name == "Team Lead"),
                 "Id",
                 "UserName",
-                team.TeamLeadId);
+                team.TeamLeadId
+            );
 
             return View(team);
         }
+
 
 
         [HttpPost]
@@ -79,10 +94,19 @@ namespace Vm.Controllers
 
         public async Task<IActionResult> Delete(int id)
         {
-            var team = await _context.Teams.FindAsync(id);
-            if (team == null) return NotFound();
+            var team = await _context.Teams
+                .Include(t => t.Project)
+                .Include(t => t.TeamLead)
+                .FirstOrDefaultAsync(m => m.Id == id);
+
+            if (team == null)
+            {
+                return NotFound();
+            }
+
             return View(team);
         }
+
 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
