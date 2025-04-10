@@ -18,12 +18,12 @@ namespace Vm.Data
             {
                 // Create "Unassigned" first!
                 var roles = new List<Role>
-            {
-                new Role { Name = "Unassigned" },  // Must be first!!!! DO NOT CHANGE THIS MFS
-                new Role { Name = "CEO" },
-                new Role { Name = "Team Lead" },
-                new Role { Name = "Developer" }
-            };
+                {
+                    new Role { Name = "Unassigned" },  // Must be first!!!! DO NOT CHANGE THIS MFS
+                    new Role { Name = "CEO" },
+                    new Role { Name = "Team Lead" },
+                    new Role { Name = "Developer" }
+                };
 
                 await context.Roles.AddRangeAsync(roles);
                 await context.SaveChangesAsync();
@@ -36,6 +36,17 @@ namespace Vm.Data
                         await roleManager.CreateAsync(new IdentityRole(role.Name));
                     }
                 }
+            }
+
+            // Seed project
+            if (!context.Projects.Any())
+            {
+                context.Projects.Add(new Project
+                {
+                    Name = "Vacation System",
+                    Description = "Internal vacation tracking system"
+                });
+                await context.SaveChangesAsync();
             }
 
             // Create CEO user
@@ -58,7 +69,57 @@ namespace Vm.Data
                     await userManager.AddToRoleAsync(ceoUser, "CEO");
                 }
             }
-        }
 
+            // Create Team Lead
+            if (!await userManager.Users.AnyAsync(u => u.Email == "lead@company.com"))
+            {
+                var lead = new ApplicationUser
+                {
+                    UserName = "lead@company.com",
+                    Email = "lead@company.com",
+                    FirstName = "Team",
+                    LastName = "Lead",
+                    EmailConfirmed = true,
+                    RoleId = context.Roles.First(r => r.Name == "Team Lead").Id
+                };
+
+                if ((await userManager.CreateAsync(lead, "LeadPassword123!")).Succeeded)
+                    await userManager.AddToRoleAsync(lead, "Team Lead");
+            }
+
+            // Create Developer
+            if (!await userManager.Users.AnyAsync(u => u.Email == "dev@company.com"))
+            {
+                var dev = new ApplicationUser
+                {
+                    UserName = "dev@company.com",
+                    Email = "dev@company.com",
+                    FirstName = "Dev",
+                    LastName = "One",
+                    EmailConfirmed = true,
+                    RoleId = context.Roles.First(r => r.Name == "Developer").Id
+                };
+
+                if ((await userManager.CreateAsync(dev, "DevPassword123!")).Succeeded)
+                    await userManager.AddToRoleAsync(dev, "Developer");
+            }
+
+            // Create Unassigned
+            if (!await userManager.Users.AnyAsync(u => u.Email == "new@company.com"))
+            {
+                var unassigned = new ApplicationUser
+                {
+                    UserName = "new@company.com",
+                    Email = "new@company.com",
+                    FirstName = "New",
+                    LastName = "User",
+                    EmailConfirmed = true,
+                    RoleId = context.Roles.First(r => r.Name == "Unassigned").Id
+                };
+
+                if ((await userManager.CreateAsync(unassigned, "NewPassword123!")).Succeeded)
+                    await userManager.AddToRoleAsync(unassigned, "Unassigned");
+            }
+        }
     }
 }
