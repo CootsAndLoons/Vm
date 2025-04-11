@@ -12,11 +12,11 @@ namespace Vm.Models
 
         [Required]
         public int ProjectId { get; set; }
-        public Project Project { get; set; }
+        public Project? Project { get; set; }
 
         [Required]
         public string TeamLeadId { get; set; }
-        public ApplicationUser TeamLead { get; set; }
+        public ApplicationUser? TeamLead { get; set; }
 
         // Може да бъде и колекция, така че не е нужно да е задължително
         public ICollection<ApplicationUser> Developers { get; set; } = new List<ApplicationUser>(); // Инициализация по подразбиране

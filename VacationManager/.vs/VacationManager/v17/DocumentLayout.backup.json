@@ -1,90 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\",
+  "WorkspaceRootPath": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\views\\teams\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\teams\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Data\\Migrations\\20250411153947_Fixplz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Vm\\Data\\Migrations\\20250411153947_Fixplz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\views\\teams\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\teams\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\views\\teams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\teams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\views\\teams\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\teams\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\data\\migrations\\20250410154845_yourmigrationname.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\data\\migrations\\20250410154845_yourmigrationname.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_Vm_acef0d2e_775d_4ef0_9c9d_18343a060fb7/True/SqlTable/dbo.Roles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Data\\Migrations\\20250410154327_Zen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Vm\\Data\\Migrations\\20250410154327_Zen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\data\\migrations\\20250410154845_yourmigrationname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\data\\migrations\\20250410154845_yourmigrationname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\controllers\\vacationrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\controllers\\vacationrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\models\\leavehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\models\\leavehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\models\\vacationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\models\\vacationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\data\\migrations\\20250409194109_fuck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\data\\migrations\\20250409194109_fuck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\data\\migrations\\20250410143027_krisko.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\data\\migrations\\20250410143027_krisko.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_Vm_acef0d2e_775d_4ef0_9c9d_18343a060fb7/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,260 +28,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Team.cs",
-              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Models\\Team.cs",
-              "RelativeDocumentMoniker": "Vm\\Models\\Team.cs",
-              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Models\\Team.cs",
-              "RelativeToolTip": "Vm\\Models\\Team.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAmwBAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T15:09:04.952Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Vm\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Vm\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:44:08.296Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Data\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "Vm\\Data\\DbInitializer.cs",
-              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Data\\DbInitializer.cs",
-              "RelativeToolTip": "Vm\\Data\\DbInitializer.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwEAAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T22:11:57.784Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TeamsController.cs",
-              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Controllers\\TeamsController.cs",
-              "RelativeDocumentMoniker": "Vm\\Controllers\\TeamsController.cs",
-              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Controllers\\TeamsController.cs",
-              "RelativeToolTip": "Vm\\Controllers\\TeamsController.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAcwGsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T13:34:00.569Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Views\\Teams\\Index.cshtml",
-              "RelativeDocumentMoniker": "Vm\\Views\\Teams\\Index.cshtml",
-              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Views\\Teams\\Index.cshtml",
-              "RelativeToolTip": "Vm\\Views\\Teams\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-10T13:35:06.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Views\\Teams\\Create.cshtml",
-              "RelativeDocumentMoniker": "Vm\\Views\\Teams\\Create.cshtml",
-              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Views\\Teams\\Create.cshtml",
-              "RelativeToolTip": "Vm\\Views\\Teams\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-10T13:35:43.716Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Views\\Teams\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Vm\\Views\\Teams\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Views\\Teams\\Edit.cshtml",
-              "RelativeToolTip": "Vm\\Views\\Teams\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-10T13:52:47.919Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Views\\Teams\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Vm\\Views\\Teams\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Views\\Teams\\Delete.cshtml",
-              "RelativeToolTip": "Vm\\Views\\Teams\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-10T13:53:17.453Z",
+              "Title": "20250411153947_Fixplz.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Data\\Migrations\\20250411153947_Fixplz.cs",
+              "RelativeDocumentMoniker": "Vm\\Data\\Migrations\\20250411153947_Fixplz.cs",
+              "ToolTip": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Data\\Migrations\\20250411153947_Fixplz.cs",
+              "RelativeToolTip": "Vm\\Data\\Migrations\\20250411153947_Fixplz.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T15:39:47.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "VacationRequestController.cs",
-              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Controllers\\VacationRequestController.cs",
-              "RelativeDocumentMoniker": "Vm\\Controllers\\VacationRequestController.cs",
-              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Controllers\\VacationRequestController.cs",
-              "RelativeToolTip": "Vm\\Controllers\\VacationRequestController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAswFEAAABIAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Models\\Team.cs",
+              "RelativeDocumentMoniker": "Vm\\Models\\Team.cs",
+              "ToolTip": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Models\\Team.cs",
+              "RelativeToolTip": "Vm\\Models\\Team.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T15:30:11.413Z"
+              "WhenOpened": "2025-04-11T15:39:04.456Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20250410154327_Zen.cs",
-              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Data\\Migrations\\20250410154327_Zen.cs",
-              "RelativeDocumentMoniker": "Vm\\Data\\Migrations\\20250410154327_Zen.cs",
-              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Data\\Migrations\\20250410154327_Zen.cs",
-              "RelativeToolTip": "Vm\\Data\\Migrations\\20250410154327_Zen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "dbo.Roles [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_Vm_acef0d2e_775d_4ef0_9c9d_18343a060fb7/True/SqlTable/dbo.Roles.sql",
+              "ToolTip": "dbo.Roles [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-11T15:14:36.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.AspNetUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_Vm_acef0d2e_775d_4ef0_9c9d_18343a060fb7/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-11T15:14:15.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TeamsController.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Controllers\\TeamsController.cs",
+              "RelativeDocumentMoniker": "Vm\\Controllers\\TeamsController.cs",
+              "ToolTip": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Controllers\\TeamsController.cs",
+              "RelativeToolTip": "Vm\\Controllers\\TeamsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T15:43:27.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20250410154845_YourMigrationName.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Data\\Migrations\\20250410154845_YourMigrationName.Designer.cs",
-              "RelativeDocumentMoniker": "Vm\\Data\\Migrations\\20250410154845_YourMigrationName.Designer.cs",
-              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Data\\Migrations\\20250410154845_YourMigrationName.Designer.cs",
-              "RelativeToolTip": "Vm\\Data\\Migrations\\20250410154845_YourMigrationName.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:12:45.625Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20250410154845_YourMigrationName.cs",
-              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Data\\Migrations\\20250410154845_YourMigrationName.cs",
-              "RelativeDocumentMoniker": "Vm\\Data\\Migrations\\20250410154845_YourMigrationName.cs",
-              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Data\\Migrations\\20250410154845_YourMigrationName.cs",
-              "RelativeToolTip": "Vm\\Data\\Migrations\\20250410154845_YourMigrationName.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T15:48:45.282Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Program.cs",
-              "RelativeDocumentMoniker": "Vm\\Program.cs",
-              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Program.cs",
-              "RelativeToolTip": "Vm\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T22:01:45.995Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "LeaveHistory.cs",
-              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Models\\LeaveHistory.cs",
-              "RelativeDocumentMoniker": "Vm\\Models\\LeaveHistory.cs",
-              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Models\\LeaveHistory.cs",
-              "RelativeToolTip": "Vm\\Models\\LeaveHistory.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAswBAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T15:20:36.563Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "VacationRequest.cs",
-              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Models\\VacationRequest.cs",
-              "RelativeDocumentMoniker": "Vm\\Models\\VacationRequest.cs",
-              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Models\\VacationRequest.cs",
-              "RelativeToolTip": "Vm\\Models\\VacationRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T15:14:35.8Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20250409194109_fuck.cs",
-              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Data\\Migrations\\20250409194109_fuck.cs",
-              "RelativeDocumentMoniker": "Vm\\Data\\Migrations\\20250409194109_fuck.cs",
-              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Data\\Migrations\\20250409194109_fuck.cs",
-              "RelativeToolTip": "Vm\\Data\\Migrations\\20250409194109_fuck.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:44:15.524Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Vm\\Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "Vm\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAcwCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T15:16:48.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "20250410143027_Krisko.cs",
-              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Data\\Migrations\\20250410143027_Krisko.cs",
-              "RelativeDocumentMoniker": "Vm\\Data\\Migrations\\20250410143027_Krisko.cs",
-              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Data\\Migrations\\20250410143027_Krisko.cs",
-              "RelativeToolTip": "Vm\\Data\\Migrations\\20250410143027_Krisko.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:30:27.135Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Vm\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "Vm\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-10T14:42:23.233Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Vm\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Vm\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABMAAAAAAAAAAAAUwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-10T13:39:32.371Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "Vm\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeToolTip": "Vm\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAswHUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:27:04.003Z"
+              "WhenOpened": "2025-04-11T14:48:08.324Z",
+              "EditorCaption": ""
             }
           ]
         }
