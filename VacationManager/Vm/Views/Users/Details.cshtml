@@ -1,0 +1,37 @@
+﻿@model ApplicationUser
+@{
+    <h2>User Details</h2>
+
+    <div class="row">
+        <div class="col-md-6">
+            <dl class="row">
+                <dt class="col-sm-4">Username:</dt>
+                <dd class="col-sm-8">@Model.UserName</dd>
+
+                <dt class="col-sm-4">Full Name:</dt>
+                <dd class="col-sm-8">@Model.FirstName @Model.LastName</dd>
+
+                <dt class="col-sm-4">Role:</dt>
+                <dd class="col-sm-8">@Model.Role?.Name</dd>
+
+                <dt class="col-sm-4">Current Team:</dt>
+                <dd class="col-sm-8">@Model.Team?.Name</dd>
+            </dl>
+        </div>
+
+        <div class="col-md-6">
+            <h4>Assign to Team</h4>
+            <form asp-action="AssignTeam" method="post">
+                <input type="hidden" name="id" value="@Model.Id" />
+                <div class="form-group">
+                    <select name="teamId" class="form-control" asp-items="ViewBag.Teams">
+                        <option value="">-- No Team --</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Save Team Assignment</button>
+            </form>
+        </div>
+    </div>
+
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+}

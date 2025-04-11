@@ -876,3 +876,5 @@ C:\Users\bsspi\Desktop\Vacation manager\Vm\VacationManager\Vm\obj\Debug\net9.0\V
 C:\Users\bsspi\Desktop\Vacation manager\Vm\VacationManager\Vm\bin\Debug\net9.0\Vm.pdb
 C:\Users\bsspi\Desktop\Vacation manager\Vm\VacationManager\Vm\obj\Debug\net9.0\ref\Vm.dll
 C:\Users\bsspi\Desktop\Vacation manager\Vm\VacationManager\Vm\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Ivan Stajkov\OneDrive\Desktop\Vm\Vm\VacationManager\Vm\bin\Debug\net9.0\X.PagedList.dll
+C:\Users\Ivan Stajkov\OneDrive\Desktop\Vm\Vm\VacationManager\Vm\bin\Debug\net9.0\X.PagedList.Mvc.Core.dll
