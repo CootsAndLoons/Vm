@@ -29,8 +29,25 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-controller="Teams" asp-action="Index">Teams</a>
                         </li>
-
                     </ul>
+
+                    <ul class="navbar-nav ms-auto">
+                        <!-- Display user role in the top right -->
+                        @if (ViewBag.UserRole != null)
+                        {
+                            <li class="nav-item">
+                                <span class="navbar-text">Role: @ViewBag.UserRole</span>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <span class="navbar-text">Role: Not Logged</span>
+                            </li>
+                        }
+                    </ul>
+
+
                     <partial name="_LoginPartial" />
                 </div>
             </div>
