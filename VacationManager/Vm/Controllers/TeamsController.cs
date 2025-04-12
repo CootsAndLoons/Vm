@@ -61,8 +61,8 @@ namespace Vm.Controllers
                 try
                 {
                     // Verify TeamLeadId exists
-                    var teamLeadExists = await _context.Users.AnyAsync(u => u.Id == team.TeamLeadId);
-                    if (!teamLeadExists)
+                    var teamLead = await _context.Users.FindAsync(team.TeamLeadId);
+                    if (teamLead == null)
                     {
                         ModelState.AddModelError("TeamLeadId", "Selected Team Lead does not exist.");
                         return View(team);
@@ -78,11 +78,14 @@ namespace Vm.Controllers
 
                     _context.Add(team);
                     await _context.SaveChangesAsync();
+
+                    teamLead.TeamId = team.Id;
+                    await _context.SaveChangesAsync();
+
                     return RedirectToAction(nameof(Index));
                 }
                 catch (DbUpdateException ex)
                 {
-                    // Log the full error (ex.InnerException?.Message)
                     ModelState.AddModelError("", "Error saving team. Details: " + ex.Message);
                 }
             }
@@ -97,7 +100,6 @@ namespace Vm.Controllers
                 "UserName"
             );
             return View(team);
-            
         }
 
         public async Task<IActionResult> Edit(int id)
@@ -130,9 +132,45 @@ namespace Vm.Controllers
 
             if (ModelState.IsValid)
             {
-                _context.Update(team);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                try
+                {
+                    var existingTeam = await _context.Teams
+                        .AsNoTracking()
+                        .FirstOrDefaultAsync(t => t.Id == id);
+
+                    // Update team first
+                    _context.Update(team);
+                    await _context.SaveChangesAsync();
+
+                    // Handle team lead changes
+                    if (existingTeam?.TeamLeadId != team.TeamLeadId)
+                    {
+                        // Remove old team lead assignment
+                        if (existingTeam?.TeamLeadId != null)
+                        {
+                            var oldTeamLead = await _context.Users.FindAsync(existingTeam.TeamLeadId);
+                            if (oldTeamLead != null)
+                            {
+                                oldTeamLead.TeamId = null;
+                            }
+                        }
+
+                        // Assign new team lead
+                        var newTeamLead = await _context.Users.FindAsync(team.TeamLeadId);
+                        if (newTeamLead != null)
+                        {
+                            newTeamLead.TeamId = team.Id;
+                        }
+
+                        await _context.SaveChangesAsync();
+                    }
+
+                    return RedirectToAction(nameof(Index));
+                }
+                catch (DbUpdateException ex)
+                {
+                    ModelState.AddModelError("", "Error updating team. Details: " + ex.Message);
+                }
             }
             return View(team);
         }
@@ -157,9 +195,18 @@ namespace Vm.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var team = await _context.Teams.FindAsync(id);
+            var team = await _context.Teams
+                    .Include(t => t.TeamLead)
+                    .FirstOrDefaultAsync(t => t.Id == id);
+
             if (team != null)
             {
+                // Remove team lead assignment
+                if (team.TeamLead != null)
+                {
+                    team.TeamLead.TeamId = null;
+                }
+
                 _context.Teams.Remove(team);
                 await _context.SaveChangesAsync();
             }
