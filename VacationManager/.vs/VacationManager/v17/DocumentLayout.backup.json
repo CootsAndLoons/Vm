@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\views\\teams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\teams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\views\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +32,52 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Vm\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Vm\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAbAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "Vm\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "Vm\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-12T18:05:51.38Z",
+              "WhenOpened": "2025-04-12T20:40:03.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Teams\\Index.cshtml",
+              "RelativeDocumentMoniker": "Vm\\Views\\Teams\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Teams\\Index.cshtml",
+              "RelativeToolTip": "Vm\\Views\\Teams\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T20:39:33.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Projects\\Index.cshtml",
+              "RelativeDocumentMoniker": "Vm\\Views\\Projects\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Projects\\Index.cshtml",
+              "RelativeToolTip": "Vm\\Views\\Projects\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T20:38:32.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Vm\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Vm\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAE0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-12T20:26:01.13Z",
               "EditorCaption": ""
             }
           ]

@@ -1,52 +1,96 @@
 ﻿@using X.PagedList
 @using X.PagedList.Mvc.Core
 @model IPagedList<ApplicationUser>
-@{
-    <h2>User Management</h2>
 
-    <form asp-action="Index" method="get">
-        <div class="form-row">
-            <div class="form-group col-md-4">
-                <input type="text" name="searchString" class="form-control"
-                       placeholder="Search by name or username" value="@ViewData["CurrentFilter"]" />
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.clickable-row').forEach(row => {
+                row.addEventListener('click', function (e) {
+                    // Don't trigger if clicking a link or button
+                    if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON') return;
+
+                    window.location.href = this.dataset.url;
+                });
+            });
+        });
+    </script>
+}
+
+<div class="dashboard-container">
+    <div class="container">
+        <div class="content-card">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="page-title">User Management</h2>
             </div>
-            <div class="form-group col-md-3">
-                <select name="roleFilter" class="form-control" asp-items="ViewBag.Roles">
-                    <option value="">All Roles</option>
-                </select>
+
+            <form asp-action="Index" method="get" class="filter-form mb-4">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="input-group">
+                            <input type="text" name="searchString" class="form-control search-input"
+                                   placeholder="Search users..."
+                                   value="@ViewData["CurrentFilter"]">
+                            <button type="submit" class="btn btn-primary btn-icon">
+                                <i class="fas fa-filter"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <select name="roleFilter" class="form-select">
+                            <option value="">All Roles</option>
+                            @foreach (var role in ViewBag.Roles)
+                            {
+                                <option value="@role.Value">@role.Text</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <a asp-action="Index" class="btn btn-secondary btn-icon w-100">
+                            <i class="fas fa-times"></i> Clear
+                        </a>
+                    </div>
+                </div>
+            </form>
+
+            <div class="table-container">
+                <table class="styled-table">
+                    <thead>
+                        <tr>
+                            <th><i class="fas fa-user me-2"></i>Username</th>
+                            <th><i class="fas fa-id-card me-2"></i>Name</th>
+                            <th><i class="fas fa-shield-alt me-2"></i>Role</th>
+                            <th><i class="fas fa-users me-2"></i>Team</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var user in Model)
+                        {
+                            <tr class="clickable-row" data-url="@Url.Action("Details", new { id = user.Id })">
+                                <td>@user.UserName</td>
+                                <td>@user.FirstName @user.LastName</td>
+                                <td>@user.Role?.Name</td>
+                                <td>@user.Team?.Name</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
             </div>
-            <div class="form-group col-md-2">
-                <input type="submit" value="Filter" class="btn btn-primary" />
+
+            <div class="pagination-container">
+                @Html.PagedListPager(Model, page => Url.Action("Index", new
+                    {
+                        page,
+                        searchString = ViewData["CurrentFilter"],
+                        roleFilter = ViewData["RoleFilter"]
+                    }),
+                         new PagedListRenderOptions
+                {
+                    LiElementClasses = new[] { "page-item" },
+                    PageClasses = new[] { "page-link" },
+                    Display = PagedListDisplayMode.IfNeeded
+                })
             </div>
         </div>
-    </form>
-
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Username</th>
-                <th>Name</th>
-                <th>Role</th>
-                <th>Team</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var user in Model)
-            {
-                <tr>
-                    <td>@user.UserName</td>
-                    <td>@user.FirstName @user.LastName</td>
-                    <td>@user.Role?.Name</td>
-                    <td>@user.Team?.Name</td>
-                    <td>
-                        <a asp-action="Details" asp-route-id="@user.Id" class="btn btn-info">Details</a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
-
-    @Html.PagedListPager(Model, page => Url.Action("Index", new { page, searchString = ViewData["CurrentFilter"], roleFilter = ViewData["RoleFilter"] }))
-
-}
+    </div>
+</div>

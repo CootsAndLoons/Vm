@@ -1,50 +1,66 @@
 ﻿@model IEnumerable<Vm.Models.Team>
 
-<h2>Team List</h2>
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.clickable-row').forEach(row => {
+                row.addEventListener('click', function (e) {
+                    // Don't trigger if clicking a link or button
+                    if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON') return;
+                    
+                    window.location.href = this.dataset.url;
+                });
+            });
+        });
+    </script>
+}
 
-<form asp-action="Index" method="get" class="mb-4">
-    <div class="row">
-        <div class="col-md-6">
-            <div class="input-group">
-                <input type="text" class="form-control"
-                       name="searchString"
-                       value="@ViewData["CurrentFilter"]"
-                       placeholder="Search by team or project name">
-                <div class="input-group-append">
-                    <button type="submit" class="btn btn-primary">
-                        <i class="fas fa-search"></i> Search
+<div class="dashboard-container">
+    <div class="container">
+        <div class="content-card">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="page-title">Teams</h2>
+                <a href="@Url.Action("Create")" class="btn btn-primary btn-icon">
+                    <i class="fas fa-plus-circle me-2"></i>Create New
+                </a>
+            </div>
+
+            <form asp-action="Index" method="get" class="search-bar mb-4">
+                <div class="input-group">
+                    <input type="text" class="form-control search-input"
+                           name="searchString"
+                           value="@ViewData["CurrentFilter"]"
+                           placeholder="Search teams...">
+                    <button type="submit" class="btn btn-primary btn-icon">
+                        <i class="fas fa-search"></i>
                     </button>
-                    <a asp-action="Index" class="btn btn-secondary">
-                        <i class="fas fa-times"></i> Clear
+                    <a asp-action="Index" class="btn btn-secondary btn-icon">
+                        <i class="fas fa-sync"></i>
                     </a>
                 </div>
+            </form>
+
+            <div class="table-container">
+                <table class="styled-table">
+                    <thead>
+                        <tr>
+                            <th><i class="fas fa-users me-2"></i>Team Name</th>
+                            <th><i class="fas fa-project-diagram me-2"></i>Project</th>
+                            <th><i class="fas fa-user-tie me-2"></i>Team Lead</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var team in Model)
+                        {
+                            <tr class="clickable-row" data-url="@Url.Action("Details", new { id = team.Id })">
+                                <td>@team.Name</td>
+                                <td>@team.Project.Name</td>
+                                <td>@team.TeamLead.UserName</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
-</form>
-
-<table class="table">
-    <thead>
-        <tr>
-            <th>Team Name</th>
-            <th>Project</th>
-            <th>Team Lead</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var team in Model)
-        {
-            <tr>
-                <td>@team.Name</td>
-                <td>@team.Project.Name</td>
-                <td>@team.TeamLead.UserName</td>
-                <td>
-                    <a asp-action="Details" asp-route-id="@team.Id" class="btn btn-info">Details</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
-
-<a href="@Url.Action("Create")" class="btn btn-primary">Create New Team</a>
+</div>

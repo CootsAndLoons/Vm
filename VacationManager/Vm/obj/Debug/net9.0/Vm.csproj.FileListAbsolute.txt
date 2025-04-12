@@ -877,7 +877,6 @@ C:\Users\bsspi\Desktop\Vacation manager\Vm\VacationManager\Vm\obj\Debug\net9.0\r
 C:\Users\bsspi\Desktop\Vacation manager\Vm\VacationManager\Vm\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Ivan Stajkov\OneDrive\Desktop\Vm\Vm\VacationManager\Vm\bin\Debug\net9.0\X.PagedList.dll
 C:\Users\Ivan Stajkov\OneDrive\Desktop\Vm\Vm\VacationManager\Vm\bin\Debug\net9.0\X.PagedList.Mvc.Core.dll
-C:\Users\Ivan Stajkov\OneDrive\Desktop\Vm\Vm\VacationManager\Vm\obj\Debug\net9.0\compressed\9fb09mwgrx-wxaxbempet.gz
 E:\Repos\Vm\VacationManager\Vm\bin\Debug\net9.0\appsettings.Development.json
 E:\Repos\Vm\VacationManager\Vm\bin\Debug\net9.0\appsettings.json
 E:\Repos\Vm\VacationManager\Vm\bin\Debug\net9.0\Vm.staticwebassets.runtime.json
@@ -1316,3 +1315,4 @@ E:\Repos\Vm\VacationManager\Vm\obj\Debug\net9.0\refint\Vm.dll
 E:\Repos\Vm\VacationManager\Vm\obj\Debug\net9.0\Vm.pdb
 E:\Repos\Vm\VacationManager\Vm\obj\Debug\net9.0\Vm.genruntimeconfig.cache
 E:\Repos\Vm\VacationManager\Vm\obj\Debug\net9.0\ref\Vm.dll
+C:\Users\Ivan Stajkov\OneDrive\Desktop\Vm\Vm\VacationManager\Vm\obj\Debug\net9.0\compressed\9fb09mwgrx-mw75ry6ig2.gz

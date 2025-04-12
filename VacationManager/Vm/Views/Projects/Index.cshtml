@@ -1,29 +1,51 @@
 ﻿@model IEnumerable<Vm.Models.Project>
 
-    <h2>Projects</h2>
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.clickable-row').forEach(row => {
+                row.addEventListener('click', function (e) {
+                    // Don't trigger if clicking a link or button
+                    if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON') return;
+                    
+                    window.location.href = this.dataset.url;
+                });
+            });
+        });
+    </script>
+}
 
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Teams Count</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var project in Model)
-            {
-                <tr>
-                    <td>@project.Name</td>
-                    <td>@project.Description</td>
-                    <td>@(project.Teams?.Count ?? 0)</td>
-                    <td>
-                        <a asp-action="Details" asp-route-id="@project.Id" class="btn btn-info">Details</a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
+<div class="dashboard-container">
+    <div class="container">
+        <div class="content-card">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="page-title">Projects</h2>
+                <a asp-action="Create" class="btn btn-primary btn-icon">
+                    <i class="fas fa-plus-circle me-2"></i>Create New
+                </a>
+            </div>
 
-    <a asp-action="Create" class="btn btn-primary">Create New Project</a>
+            <div class="table-container">
+                <table class="styled-table">
+                    <thead>
+                        <tr>
+                            <th><i class="fas fa-tag me-2"></i>Name</th>
+                            <th><i class="fas fa-align-left me-2"></i>Description</th>
+                            <th><i class="fas fa-users me-2"></i>Teams</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var project in Model)
+                        {
+                            <tr class="clickable-row" data-url="@Url.Action("Details", new { id = project.Id })">
+                                <td>@project.Name</td>
+                                <td>@project.Description</td>
+                                <td>@(project.Teams?.Count ?? 0)</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
