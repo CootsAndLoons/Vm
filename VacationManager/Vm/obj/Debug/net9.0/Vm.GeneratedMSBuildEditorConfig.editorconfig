@@ -17,117 +17,117 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Vm
 build_property.RootNamespace = Vm
-build_property.ProjectDir = C:\Users\Ivan Stajkov\OneDrive\Desktop\Vm\Vm\VacationManager\Vm\
+build_property.ProjectDir = C:\Users\stojk\OneDrive\Desktop\flight\Vm\VacationManager\Vm\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Ivan Stajkov\OneDrive\Desktop\Vm\Vm\VacationManager\Vm
+build_property.MSBuildProjectDirectory = C:\Users\stojk\OneDrive\Desktop\flight\Vm\VacationManager\Vm
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Views/Home/Index.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Views/Home/Privacy.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Views/Projects/Create.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Views/Projects/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Views/Projects/Details.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Views/Projects/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Views/Projects/Edit.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Views/Projects/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Views/Projects/Index.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Views/Projects/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Views/Shared/Error.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Views/Teams/Create.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Views/Teams/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Views/Teams/Delete.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Views/Teams/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Views/Teams/Details.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Views/Teams/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Views/Teams/Edit.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Views/Teams/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Views/Teams/Index.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Views/Teams/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Views/Users/Details.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Views/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Views/Users/Index.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Views/_ViewImports.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Views/_ViewStart.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ivan Stajkov/OneDrive/Desktop/Vm/Vm/VacationManager/Vm/Views/Shared/_Layout.cshtml]
+[C:/Users/stojk/OneDrive/Desktop/flight/Vm/VacationManager/Vm/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zibwxayweg
