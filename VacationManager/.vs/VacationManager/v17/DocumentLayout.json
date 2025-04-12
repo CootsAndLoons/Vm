@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\views\\projects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\projects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\views\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\views\\projects\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\projects\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\views\\projects\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\projects\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,19 +43,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Projects\\Create.cshtml",
+              "RelativeDocumentMoniker": "Vm\\Views\\Projects\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Projects\\Create.cshtml",
+              "RelativeToolTip": "Vm\\Views\\Projects\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T16:15:52.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Projects\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Vm\\Views\\Projects\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Projects\\Edit.cshtml",
+              "RelativeToolTip": "Vm\\Views\\Projects\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T16:14:15.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Projects\\Details.cshtml",
+              "RelativeDocumentMoniker": "Vm\\Views\\Projects\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Projects\\Details.cshtml",
+              "RelativeToolTip": "Vm\\Views\\Projects\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T16:09:20.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Projects\\Index.cshtml",
+              "RelativeDocumentMoniker": "Vm\\Views\\Projects\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Projects\\Index.cshtml",
+              "RelativeToolTip": "Vm\\Views\\Projects\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T15:59:12.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Vm\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ToolTip": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeToolTip": "Vm\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T15:46:59.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "Vm\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -47,12 +115,11 @@
               "RelativeToolTip": "Vm\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T15:46:43.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-12T15:46:43.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Program.cs",
               "RelativeDocumentMoniker": "Vm\\Program.cs",
@@ -60,8 +127,7 @@
               "RelativeToolTip": "Vm\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T15:45:27.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-12T15:45:27.237Z"
             }
           ]
         }

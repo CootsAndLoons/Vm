@@ -1,5 +1,5 @@
 ﻿@model IEnumerable<Vm.Models.Project>
-@{
+
     <h2>Projects</h2>
 
     <table class="table">
@@ -20,7 +20,6 @@
                     <td>@(project.Teams?.Count ?? 0)</td>
                     <td>
                         <a asp-action="Details" asp-route-id="@project.Id" class="btn btn-info">Details</a>
-                        <a asp-action="Edit" asp-route-id="@project.Id" class="btn btn-warning">Edit</a>
                     </td>
                 </tr>
             }
@@ -28,4 +27,3 @@
     </table>
 
     <a asp-action="Create" class="btn btn-primary">Create New Project</a>
-}
