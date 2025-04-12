@@ -1,4 +1,8 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -15,7 +19,7 @@
                 <div class="col"><a class="home-grid-link" href="../Users/Index"><p class="p-3 fs-2" style="background-color: rgb(120, 234, 240);">Users</p></a></div>
              </div>
         }
-        else
+        else if(SignInManager.IsSignedIn(User))
         {
              <div class="row justify-content-center">
                 <div class="col-4"><a class="home-grid-link" href="../Teams/Index"><p class="p-3 fs-2" style="background-color: rgb(188, 120, 240);">Teams</p></a></div>
@@ -24,6 +28,15 @@
             <div class="row justify-content-center">
                 <div class="col-8"><a class="home-grid-link" href="../Projects/Index"><p class="p-3 fs-2" style="background-color: rgb(128, 120, 240);">Projects</p></a></div>
              </div>
+        }
+        else
+        {
+            <div class="row justify-content-center mt-5">
+                <div class="col-6 text-center">
+                    <h2>You must be logged in to access this page.</h2>
+                    <a class="btn btn-primary mt-3" href="@Url.Action("Login", "Account")">Login</a>
+                </div>
+            </div>
         }
 
        
