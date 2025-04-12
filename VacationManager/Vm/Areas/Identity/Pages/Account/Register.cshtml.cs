@@ -24,6 +24,7 @@ using Vm.Models;
 
 namespace Vm.Areas.Identity.Pages.Account
 {
+    [AllowAnonymous]
     public class RegisterModel : PageModel
     {
         private readonly ApplicationDbContext _context;
