@@ -4,5 +4,31 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
+    <div class="container">
+        @if(ViewBag.UserRole =="CEO")
+        {
+            <div class="row justify-content-center">
+                <div class="col-4"><p class="p-3 fs-2" style="background-color: rgb(188, 120, 240);">Teams</p></div>
+                <div class="col"><p class="p-3 fs-2" style="background-color: rgb(120, 190, 240);">Leaves</p></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-8"><p class="p-3 fs-2" style="background-color: rgb(128, 120, 240);">Projects</p></div>
+                <div class="col"><p class="p-3 fs-2" style="background-color: rgb(120, 234, 240);">Users</p></div>
+             </div>
+        }
+        else
+        {
+            <div class="row justify-content-center">
+                <div class="col-4"><p class="p-3 fs-2" style="background-color: rgb(188, 120, 240);">Teams</p></div>
+                <div class="col"><p class="p-3 fs-2" style="background-color: rgb(120, 190, 240);">Leaves</p></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-8"><p class="p-3 fs-2" style="background-color: rgb(128, 120, 240);">Projects</p></div>
+             </div>
+        }
+       
+    </div>
+
+
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
