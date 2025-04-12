@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aaf10b00fbbee2bad96b2d3fb9683473c41291c6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a3de9c4ba2caa3e1be7249b20f70995ddcbd194")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
