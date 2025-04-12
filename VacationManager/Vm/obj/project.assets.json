@@ -8523,23 +8523,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ivan Stajkov\\.nuget\\packages\\": {},
+    "C:\\Users\\marin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Vm.csproj",
+      "projectUniqueName": "E:\\Repos\\Vm\\VacationManager\\Vm\\Vm.csproj",
       "projectName": "Vm",
-      "projectPath": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Vm.csproj",
-      "packagesPath": "C:\\Users\\Ivan Stajkov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\obj\\",
+      "projectPath": "E:\\Repos\\Vm\\VacationManager\\Vm\\Vm.csproj",
+      "packagesPath": "C:\\Users\\marin\\.nuget\\packages\\",
+      "outputPath": "E:\\Repos\\Vm\\VacationManager\\Vm\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ivan Stajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\marin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8640,7 +8640,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.105/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
