@@ -15,15 +15,23 @@ namespace Vm.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            var teams = await _context.Teams.AsNoTracking()
-                .Include(t => t.Project)
-                .Include(t => t.TeamLead)
-                .ToListAsync();
+            var query = _context.Teams
+                  .Include(t => t.Project)
+                  .Include(t => t.TeamLead)
+                  .AsQueryable();
 
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                query = query.Where(t =>
+                    t.Name.Contains(searchString) ||
+                    t.Project.Name.Contains(searchString)
+                );
+            }
 
-            return View(teams);
+            ViewData["CurrentFilter"] = searchString;
+            return View(await query.ToListAsync());
         }
 
 
