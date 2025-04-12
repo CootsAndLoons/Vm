@@ -157,5 +157,59 @@ namespace Vm.Controllers
             }
             return RedirectToAction(nameof(Index));
         }
+
+        public async Task<IActionResult> Details(int id)
+        {
+            var team = await _context.Teams
+                .Include(t => t.Project)
+                .Include(t => t.TeamLead)
+                .Include(t => t.Developers)
+                .FirstOrDefaultAsync(m => m.Id == id);
+
+            if (team == null)
+            {
+                return NotFound();
+            }
+
+            ViewBag.AvailableUsers = new SelectList(
+                _context.Users
+                    .Where(u => u.TeamId == null || u.TeamId == id)
+                    .Include(u => u.Role),
+                "Id",
+                "UserName"
+            );
+
+            return View(team);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> AddMember(int teamId, string userId)
+        {
+            var team = await _context.Teams.FindAsync(teamId);
+            var user = await _context.Users.FindAsync(userId);
+
+            if (team != null && user != null)
+            {
+                user.TeamId = teamId;
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToAction(nameof(Details), new { id = teamId });
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> RemoveMember(int teamId, string userId)
+        {
+            var user = await _context.Users.FindAsync(userId);
+            if (user != null)
+            {
+                user.TeamId = null;
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToAction(nameof(Details), new { id = teamId });
+        }
     }
 }

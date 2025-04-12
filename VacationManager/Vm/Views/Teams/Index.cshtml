@@ -19,8 +19,7 @@
                 <td>@team.Project.Name</td>
                 <td>@team.TeamLead.UserName</td>
                 <td>
-                    <a href="@Url.Action("Edit", new { id = team.Id })" class="btn btn-warning">Edit</a>
-                    <a href="@Url.Action("Delete", new { id = team.Id })" class="btn btn-danger">Delete</a>
+                    <a asp-action="Details" asp-route-id="@team.Id" class="btn btn-info">Details</a>
                 </td>
             </tr>
         }

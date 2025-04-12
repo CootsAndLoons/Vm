@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\views\\teams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\teams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\views\\teams\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\teams\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\views\\teams\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\teams\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -17,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\views\\teams\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\teams\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,19 +47,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Teams\\Index.cshtml",
+              "RelativeDocumentMoniker": "Vm\\Views\\Teams\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Teams\\Index.cshtml",
+              "RelativeToolTip": "Vm\\Views\\Teams\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T08:00:21.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Teams\\Details.cshtml",
+              "RelativeDocumentMoniker": "Vm\\Views\\Teams\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Teams\\Details.cshtml",
+              "RelativeToolTip": "Vm\\Views\\Teams\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T08:03:08.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Users\\Details.cshtml",
               "RelativeDocumentMoniker": "Vm\\Views\\Users\\Details.cshtml",
               "ToolTip": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Users\\Details.cshtml",
               "RelativeToolTip": "Vm\\Views\\Users\\Details.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEIAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-11T19:01:49.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Users\\Index.cshtml",
               "RelativeDocumentMoniker": "Vm\\Views\\Users\\Index.cshtml",
@@ -64,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Vm\\Controllers\\UsersController.cs",
@@ -77,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Program.cs",
               "RelativeDocumentMoniker": "Vm\\Program.cs",
@@ -90,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Teams\\Delete.cshtml",
               "RelativeDocumentMoniker": "Vm\\Views\\Teams\\Delete.cshtml",
@@ -98,19 +132,21 @@
               "RelativeToolTip": "Vm\\Views\\Teams\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-11T17:37:27.532Z"
+              "WhenOpened": "2025-04-11T17:37:27.532Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "TeamsController.cs",
               "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Controllers\\TeamsController.cs",
               "RelativeDocumentMoniker": "Vm\\Controllers\\TeamsController.cs",
               "ToolTip": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Controllers\\TeamsController.cs",
               "RelativeToolTip": "Vm\\Controllers\\TeamsController.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAwwJYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAALcAAAAAAAAAAAAmwNcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T17:33:57.362Z"
+              "WhenOpened": "2025-04-11T17:33:57.362Z",
+              "EditorCaption": ""
             }
           ]
         }

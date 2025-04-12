@@ -1,0 +1,66 @@
+﻿@model Vm.Models.Team
+@{
+    <h2>Team Details</h2>
+
+    <div class="row">
+        <div class="col-md-6">
+            <dl class="row">
+                <dt class="col-sm-4">Team Name:</dt>
+                <dd class="col-sm-8">@Model.Name</dd>
+
+                <dt class="col-sm-4">Project:</dt>
+                <dd class="col-sm-8">@Model.Project.Name</dd>
+
+                <dt class="col-sm-4">Team Lead:</dt>
+                <dd class="col-sm-8">@Model.TeamLead.UserName</dd>
+            </dl>
+
+            <div class="mt-4">
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit Team</a>
+                <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">Delete Team</a>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <h4>Team Members</h4>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>Role</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var member in Model.Developers)
+                    {
+                        <tr>
+                            <td>@member.UserName</td>
+                            <td>@member.Role?.Name</td>
+                            <td>
+                                <form asp-action="RemoveMember" method="post">
+                                    <input type="hidden" name="teamId" value="@Model.Id" />
+                                    <input type="hidden" name="userId" value="@member.Id" />
+                                    <button type="submit" class="btn btn-sm btn-danger">Remove</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <h5>Add Member</h5>
+            <form asp-action="AddMember" method="post">
+                <input type="hidden" name="teamId" value="@Model.Id" />
+                <div class="form-group">
+                    <select name="userId" class="form-control" asp-items="ViewBag.AvailableUsers">
+                        <option value="">-- Select User --</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Add to Team</button>
+            </form>
+        </div>
+    </div>
+
+    <a asp-action="Index" class="btn btn-secondary mt-3">Back to List</a>
+}
