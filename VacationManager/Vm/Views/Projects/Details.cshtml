@@ -1,0 +1,71 @@
+﻿@model Vm.Models.Project
+
+@{
+    ViewData["Title"] = "Project Details";
+
+    <h2>@Model.Name</h2>
+    <p>@Model.Description</p>
+
+    <div class="row">
+        <div class="col-md-8">
+            <h4>Teams and Members</h4>
+            @foreach (var team in Model.Teams)
+            {
+                <div class="card mb-3">
+                    <div class="card-header">
+                        <h5>@team.Name (Team Lead: @team.TeamLead.UserName)</h5>
+                    </div>
+                    <div class="card-body">
+                        <h6>Members:</h6>
+                        <ul class="list-group">
+                            @foreach (var member in team.Developers)
+                            {
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    @member.UserName
+                                    <form asp-action="RemoveMember" method="post">
+                                        <input type="hidden" name="projectId" value="@Model.Id" />
+                                        <input type="hidden" name="userId" value="@member.Id" />
+                                        <button type="submit" class="btn btn-danger btn-sm">Remove</button>
+                                    </form>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Add Member</h5>
+                </div>
+                <div class="card-body">
+                    <form asp-action="AddMember" method="post">
+                        <input type="hidden" name="projectId" value="@Model.Id" />
+                        <div class="form-group">
+                            <label>Select Team:</label>
+                            <select name="teamId" class="form-control"
+                                    asp-items="@(new SelectList(Model.Teams, "Id", "Name"))">
+                                <option value="">-- Select Team --</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Select User:</label>
+                            <select name="userId" class="form-control"
+                                    asp-items="ViewBag.AvailableUsers">
+                                <option value="">-- Select User --</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Add to Team</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit Project</a>
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+}

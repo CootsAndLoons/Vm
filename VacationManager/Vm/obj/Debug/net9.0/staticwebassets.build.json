@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dcs2ID/TNqIT3SnqSK7KM1Lg0vFGXh3ltQ7h1VNY7ds=",
+  "Hash": "vj9mhdHCe/ddrCM4URAKTRndCfkil9JPKdiOY0jbOPc=",
   "Source": "Vm",
   "BasePath": "_content/Vm",
   "Mode": "Default",
@@ -1949,12 +1949,12 @@
       "OriginalItemSpec": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\obj\\Debug\\net9.0\\compressed\\9fb09mwgrx-b9sayid5wm.gz",
+      "Identity": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\obj\\Debug\\net9.0\\compressed\\9fb09mwgrx-wxaxbempet.gz",
       "SourceId": "Vm",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Vm",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=wxaxbempet}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1963,8 +1963,8 @@
       "RelatedAsset": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0suozzrugb",
-      "Integrity": "0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=",
+      "Fingerprint": "8e40d1gqz7",
+      "Integrity": "QGfq2k30AfI6DdB4VxywNe/lnT19pxTLqH13X/bk+Pc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\wwwroot\\css\\site.css"
@@ -4042,8 +4042,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "wxaxbempet",
+      "Integrity": "pDgoQ64VoswU1VNPv0EgHUZ4p2y1UqbBeufAl/jLRyU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -5353,167 +5353,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\obj\\Debug\\net9.0\\compressed\\9fb09mwgrx-b9sayid5wm.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003134796238"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "318"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 16:20:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "667"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 16:20:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\obj\\Debug\\net9.0\\compressed\\9fb09mwgrx-b9sayid5wm.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "318"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 16:20:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Ivan Stajkov\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.3\\staticwebassets\\css\\site.css",
       "Selectors": [],
@@ -5552,12 +5391,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\obj\\Debug\\net9.0\\compressed\\9fb09mwgrx-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\obj\\Debug\\net9.0\\compressed\\9fb09mwgrx-wxaxbempet.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003134796238"
+          "Quality": "0.002217294900"
         }
       ],
       "ResponseHeaders": [
@@ -5567,15 +5406,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "450"
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"QGfq2k30AfI6DdB4VxywNe/lnT19pxTLqH13X/bk+Pc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 16:20:46 GMT"
+          "Value": "Sat, 12 Apr 2025 12:48:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5595,13 +5434,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"pDgoQ64VoswU1VNPv0EgHUZ4p2y1UqbBeufAl/jLRyU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-pDgoQ64VoswU1VNPv0EgHUZ4p2y1UqbBeufAl/jLRyU="
         }
       ]
     },
@@ -5616,7 +5455,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "1059"
         },
         {
           "Name": "Content-Type",
@@ -5624,11 +5463,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"pDgoQ64VoswU1VNPv0EgHUZ4p2y1UqbBeufAl/jLRyU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 16:20:46 GMT"
+          "Value": "Sat, 12 Apr 2025 12:48:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5638,13 +5477,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-pDgoQ64VoswU1VNPv0EgHUZ4p2y1UqbBeufAl/jLRyU="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\obj\\Debug\\net9.0\\compressed\\9fb09mwgrx-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\obj\\Debug\\net9.0\\compressed\\9fb09mwgrx-wxaxbempet.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5653,7 +5492,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "450"
         },
         {
           "Name": "Content-Type",
@@ -5661,11 +5500,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"QGfq2k30AfI6DdB4VxywNe/lnT19pxTLqH13X/bk+Pc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 16:20:46 GMT"
+          "Value": "Sat, 12 Apr 2025 12:48:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5683,7 +5522,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
+          "Value": "sha256-QGfq2k30AfI6DdB4VxywNe/lnT19pxTLqH13X/bk+Pc="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.wxaxbempet.css",
+      "AssetFile": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\obj\\Debug\\net9.0\\compressed\\9fb09mwgrx-wxaxbempet.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002217294900"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "450"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QGfq2k30AfI6DdB4VxywNe/lnT19pxTLqH13X/bk+Pc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 12:48:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pDgoQ64VoswU1VNPv0EgHUZ4p2y1UqbBeufAl/jLRyU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wxaxbempet"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pDgoQ64VoswU1VNPv0EgHUZ4p2y1UqbBeufAl/jLRyU="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.wxaxbempet.css",
+      "AssetFile": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1059"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pDgoQ64VoswU1VNPv0EgHUZ4p2y1UqbBeufAl/jLRyU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 12:48:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wxaxbempet"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pDgoQ64VoswU1VNPv0EgHUZ4p2y1UqbBeufAl/jLRyU="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.wxaxbempet.css.gz",
+      "AssetFile": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\obj\\Debug\\net9.0\\compressed\\9fb09mwgrx-wxaxbempet.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "450"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QGfq2k30AfI6DdB4VxywNe/lnT19pxTLqH13X/bk+Pc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 12:48:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wxaxbempet"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QGfq2k30AfI6DdB4VxywNe/lnT19pxTLqH13X/bk+Pc="
         }
       ]
     },

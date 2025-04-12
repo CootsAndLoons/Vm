@@ -197,7 +197,6 @@ C:\Users\Ivan Stajkov\OneDrive\Desktop\Vm\Vm\VacationManager\Vm\obj\Debug\net9.0
 C:\Users\Ivan Stajkov\OneDrive\Desktop\Vm\Vm\VacationManager\Vm\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
 C:\Users\Ivan Stajkov\OneDrive\Desktop\Vm\Vm\VacationManager\Vm\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
 C:\Users\Ivan Stajkov\OneDrive\Desktop\Vm\Vm\VacationManager\Vm\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
-C:\Users\Ivan Stajkov\OneDrive\Desktop\Vm\Vm\VacationManager\Vm\obj\Debug\net9.0\compressed\9fb09mwgrx-b9sayid5wm.gz
 C:\Users\Ivan Stajkov\OneDrive\Desktop\Vm\Vm\VacationManager\Vm\obj\Debug\net9.0\compressed\jqkbcymx8z-61n19gt1b8.gz
 C:\Users\Ivan Stajkov\OneDrive\Desktop\Vm\Vm\VacationManager\Vm\obj\Debug\net9.0\compressed\75c0p0wx4e-xtxxf3hu2r.gz
 C:\Users\Ivan Stajkov\OneDrive\Desktop\Vm\Vm\VacationManager\Vm\obj\Debug\net9.0\compressed\axy3qlm6p3-bqjiyaj88i.gz
@@ -878,3 +877,4 @@ C:\Users\bsspi\Desktop\Vacation manager\Vm\VacationManager\Vm\obj\Debug\net9.0\r
 C:\Users\bsspi\Desktop\Vacation manager\Vm\VacationManager\Vm\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Ivan Stajkov\OneDrive\Desktop\Vm\Vm\VacationManager\Vm\bin\Debug\net9.0\X.PagedList.dll
 C:\Users\Ivan Stajkov\OneDrive\Desktop\Vm\Vm\VacationManager\Vm\bin\Debug\net9.0\X.PagedList.Mvc.Core.dll
+C:\Users\Ivan Stajkov\OneDrive\Desktop\Vm\Vm\VacationManager\Vm\obj\Debug\net9.0\compressed\9fb09mwgrx-wxaxbempet.gz
