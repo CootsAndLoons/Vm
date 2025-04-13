@@ -66,6 +66,46 @@ namespace Vm.Controllers
             return View(project);
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var project = await _context.Projects
+                .Include(p => p.Teams)
+                    .ThenInclude(t => t.TeamLead)
+                .FirstOrDefaultAsync(p => p.Id == id);
+
+            if (project != null)
+            {
+                // Remove all team associations
+                foreach (var team in project.Teams.ToList())
+                {
+                    // Clear team lead assignment
+                    if (team.TeamLead != null)
+                    {
+                        team.TeamLead.TeamId = null;
+                    }
+
+                    // Clear member assignments
+                    var members = await _context.Users
+                        .Where(u => u.TeamId == team.Id)
+                        .ToListAsync();
+
+                    foreach (var member in members)
+                    {
+                        member.TeamId = null;
+                    }
+
+                    _context.Teams.Remove(team);
+                }
+
+                _context.Projects.Remove(project);
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
+
         public async Task<IActionResult> Edit(int id)
         {
             var project = await _context.Projects.FindAsync(id);
