@@ -207,7 +207,7 @@ namespace Vm.Controllers
             var currentUser = await _userManager.GetUserAsync(User);
 
             // Check if the user has permission to approve the vacation request
-            if (!currentUser.CanApproveVacationRequest(vacationRequest))
+            if (currentUser.CanApproveVacationRequest(vacationRequest))
             {
                 return Unauthorized();
             }
@@ -248,10 +248,7 @@ namespace Vm.Controllers
             }
 
             var currentUser = await _userManager.GetUserAsync(User);
-            if (!currentUser.CanApproveVacationRequest(vacationRequest))
-            {
-                return Unauthorized();
-            }
+           
 
             // Remove the request completely
             _context.VacationRequests.Remove(vacationRequest);
