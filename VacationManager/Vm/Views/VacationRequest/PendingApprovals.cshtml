@@ -17,24 +17,37 @@
     <tbody>
         @foreach (var request in Model)
         {
-            <tr>
+            <tr class="@(request.IsApproved ? "table-success" : "")">
+
                 <td>@request.Requester.FirstName @request.Requester.LastName</td>
                 <td>@request.Type</td>
                 <td>@request.StartDate.ToShortDateString()</td>
                 <td>@request.EndDate.ToShortDateString()</td>
                 <td>
-                    <form method="post" style="display:inline">
-                        <button asp-action="Approve" asp-route-vacationRequestId="@request.Id"
-                                class="btn btn-success btn-sm">
-                            Approve
-                        </button>
-                    </form>
-                    <form method="post" style="display:inline">
-                        <button asp-action="Reject" asp-route-vacationRequestId="@request.Id"
-                                class="btn btn-danger btn-sm">
-                            Reject
-                        </button>
-                    </form>
+                    @if (!request.IsApproved)
+                    {
+                        <form method="post" style="display:inline">
+                            <button asp-action="Approve" asp-route-vacationRequestId="@request.Id"
+                                    class="btn btn-success btn-sm">
+                                <i class="fas fa-check"></i> Approve
+                            </button>
+                        </form>
+                        <form method="post" style="display:inline">
+                            <button asp-action="Reject" asp-route-vacationRequestId="@request.Id"
+                                    class="btn btn-danger btn-sm"
+                                    onclick="return confirm('This will permanently delete the request. Continue?')">
+                                <i class="fas fa-times"></i> Reject
+                            </button>
+                        </form>
+                    }
+                    else
+                    {
+                        <span class="text-success">Approved</span>
+                        @if (request.EndDate < DateTime.Today)
+                        {
+                            <span class="text-muted ms-2">(Completed)</span>
+                        }
+                    }
                 </td>
             </tr>
         }

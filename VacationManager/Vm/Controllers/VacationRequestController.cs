@@ -175,7 +175,7 @@ namespace Vm.Controllers
             IQueryable<VacationRequest> query = _context.VacationRequests
                 .Include(v => v.Requester)
                 .ThenInclude(u => u.Team)
-                .Where(v => !v.IsApproved);
+                .Where(v => !v.IsApproved && v.EndDate >= DateTime.Today);
 
             if (await _userManager.IsInRoleAsync(currentUser, "Team Lead"))
             {
@@ -190,7 +190,6 @@ namespace Vm.Controllers
             var filteredRequests = await query.ToListAsync();
             return View(filteredRequests.ToPagedList(pageNumber, pageSize));
         }
-
 
         // Action to approve a vacation request
         public async Task<IActionResult> Approve(int vacationRequestId)
@@ -234,34 +233,31 @@ namespace Vm.Controllers
             _context.LeaveHistories.Add(leaveHistory);
             await _context.SaveChangesAsync();
 
-            return RedirectToAction("Index", "Home"); // Redirect to the home page or any relevant page
+            return RedirectToAction("PendingApprovals");
         }
 
         // Action to reject a vacation request (optional)
         public async Task<IActionResult> Reject(int vacationRequestId)
         {
             var vacationRequest = await _context.VacationRequests
-                .FirstOrDefaultAsync(v => v.Id == vacationRequestId);
+            .FirstOrDefaultAsync(v => v.Id == vacationRequestId);
 
             if (vacationRequest == null)
             {
                 return NotFound();
             }
 
-            // Get the current logged-in user
             var currentUser = await _userManager.GetUserAsync(User);
-
-            // Check if the user has permission to reject the vacation request
             if (!currentUser.CanApproveVacationRequest(vacationRequest))
             {
                 return Unauthorized();
             }
 
-            // Mark the vacation request as rejected (you can add a rejected status if needed)
-            vacationRequest.IsApproved = false;
+            // Remove the request completely
+            _context.VacationRequests.Remove(vacationRequest);
             await _context.SaveChangesAsync();
 
-            return RedirectToAction("Index", "Home"); // Redirect to the home page or any relevant page
+            return RedirectToAction("PendingApprovals");
         }
     }
 }

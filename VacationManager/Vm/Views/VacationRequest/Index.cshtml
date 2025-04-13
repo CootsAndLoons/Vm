@@ -15,6 +15,13 @@
     </script>
 }
 
+<style>
+    .non-clickable {
+        pointer-events: none;
+        cursor: default;
+    }
+</style>
+
 <div class="dashboard-container">
     <div class="container">
         <div class="content-card">
@@ -52,7 +59,8 @@
                     <tbody>
                         @foreach (var request in Model)
                         {
-                            <tr class="clickable-row" data-url="@Url.Action("Edit", new { id = request.Id })">
+                            <tr class="clickable-row @(User.IsInRole("CEO") ? "" : "non-clickable")"
+                                data-url="@(User.IsInRole("CEO") ? Url.Action("PendingApprovals", new { id = request.Id }) : "")">
                                 <td>@request.Type</td>
                                 <td>@request.StartDate.ToString("dd MMM yyyy")</td>
                                 <td>@request.EndDate.ToString("dd MMM yyyy")</td>
