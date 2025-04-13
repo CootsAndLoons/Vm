@@ -4,20 +4,193 @@ using Microsoft.EntityFrameworkCore;
 using Vm.Data;
 using Vm.Models;
 using System.Linq;
+using X.PagedList.Mvc;
+using Microsoft.AspNetCore.Authorization;
+using X.PagedList.Extensions;
 
 namespace Vm.Controllers
 {
+    [Authorize]
     public class VacationRequestController : Controller
     {
         private readonly ApplicationDbContext _context;
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly IWebHostEnvironment _env;
 
-        // Constructor to inject the ApplicationDbContext and UserManager
-        public VacationRequestController(ApplicationDbContext context, UserManager<ApplicationUser> userManager)
+        public VacationRequestController(
+            ApplicationDbContext context,
+            UserManager<ApplicationUser> userManager,
+            IWebHostEnvironment env)
         {
             _context = context;
             _userManager = userManager;
+            _env = env;
         }
+
+        // GET: VacationRequest
+        public async Task<IActionResult> Index(DateTime? filterDate, int? page)
+        {
+            var user = await _userManager.GetUserAsync(User);
+            var query = _context.VacationRequests
+                .Include(v => v.Requester)
+                .Where(v => v.RequesterId == user.Id)
+                .OrderByDescending(v => v.CreatedOn)
+                .AsQueryable();
+
+            if (filterDate.HasValue)
+            {
+                query = query.Where(v => v.CreatedOn >= filterDate.Value);
+            }
+
+            int pageSize = 10;
+            int pageNumber = page ?? 1;
+            var filteredRequests = await query.ToListAsync();
+            return View(filteredRequests.ToPagedList(pageNumber, pageSize));
+        }
+
+        // GET: VacationRequest/Create
+        public IActionResult Create()
+        {
+            return View(new VacationRequest
+            {
+                CreatedOn = DateTime.Now,
+                StartDate = DateTime.Today,
+                EndDate = DateTime.Today
+            });
+        }
+
+        // POST: VacationRequest/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(VacationRequest model)
+        {
+            var user = await _userManager.GetUserAsync(User);
+            model.RequesterId = user.Id; // Set programmatically
+            model.CreatedOn = DateTime.Now;
+
+            // Remove RequesterId/Requester from ModelState validation
+            ModelState.Remove("RequesterId");
+            ModelState.Remove("Requester");
+
+            if (model.Type == VacationType.Sick)
+            {
+                model.IsHalfDay = false;
+            }
+
+            if (model.EndDate < model.StartDate)
+            {
+                ModelState.AddModelError("EndDate", "End date must be after start date");
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Add(model);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError("", $"Error saving request: {ex.Message}");
+                }
+            }
+
+            // Repopulate dates if validation fails
+            model.StartDate = model.StartDate == DateTime.MinValue ? DateTime.Today : model.StartDate;
+            model.EndDate = model.EndDate == DateTime.MinValue ? DateTime.Today : model.EndDate;
+
+            return View(model);
+        }
+
+        // GET: VacationRequest/Edit/5
+        public async Task<IActionResult> Edit(int? id)
+        {
+            var request = await _context.VacationRequests
+                .Include(v => v.Requester)
+                .FirstOrDefaultAsync(v => v.Id == id);
+
+            if (request == null || request.RequesterId != _userManager.GetUserId(User) || request.IsApproved)
+            {
+                return Forbid();
+            }
+
+            return View(request);
+        }
+
+        // POST: VacationRequest/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, VacationRequest model) // Remove IFormFile sickLeaveFile parameter
+        {
+            var existingRequest = await _context.VacationRequests.FindAsync(id);
+            if (existingRequest == null || existingRequest.RequesterId != _userManager.GetUserId(User) || existingRequest.IsApproved)
+            {
+                return Forbid();
+            }
+
+            ModelState.Remove("RequesterId");
+            ModelState.Remove("Requester");
+
+            if (model.Type == VacationType.Sick)
+            {
+                model.IsHalfDay = false;
+                // Remove file validation
+            }
+
+            if (ModelState.IsValid)
+            {
+                existingRequest.StartDate = model.StartDate;
+                existingRequest.EndDate = model.EndDate;
+                existingRequest.Type = model.Type;
+                existingRequest.IsHalfDay = model.IsHalfDay;
+
+                // Remove file handling code
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(model);
+        }
+
+        // POST: VacationRequest/Delete/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var request = await _context.VacationRequests.FindAsync(id);
+            if (request == null || request.RequesterId != _userManager.GetUserId(User) || request.IsApproved)
+            {
+                return Forbid();
+            }
+
+            _context.VacationRequests.Remove(request);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        [Authorize(Roles = "Team Lead,CEO")]
+        public async Task<IActionResult> PendingApprovals(int? page)
+        {
+            var currentUser = await _userManager.GetUserAsync(User);
+            IQueryable<VacationRequest> query = _context.VacationRequests
+                .Include(v => v.Requester)
+                .ThenInclude(u => u.Team)
+                .Where(v => !v.IsApproved);
+
+            if (await _userManager.IsInRoleAsync(currentUser, "Team Lead"))
+            {
+                // Team Lead can only see requests from their team
+                query = query.Where(v => v.Requester.TeamId == currentUser.TeamId);
+            }
+            // CEO can see all requests
+
+            int pageSize = 10;
+            int pageNumber = page ?? 1;
+
+            var filteredRequests = await query.ToListAsync();
+            return View(filteredRequests.ToPagedList(pageNumber, pageSize));
+        }
+
 
         // Action to approve a vacation request
         public async Task<IActionResult> Approve(int vacationRequestId)

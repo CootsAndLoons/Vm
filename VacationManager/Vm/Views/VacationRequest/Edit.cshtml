@@ -1,0 +1,49 @@
+﻿@model VacationRequest
+
+<h2>Edit Vacation Request</h2>
+
+<form asp-action="Edit" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Type" class="control-label"></label>
+        <select asp-for="Type" class="form-control" id="typeSelect" disabled>
+            <option value="Paid">Paid Leave</option>
+            <option value="Unpaid">Unpaid Leave</option>
+            <option value="Sick">Sick Leave</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="StartDate" class="control-label"></label>
+        <input asp-for="StartDate" class="form-control" type="date" />
+        <span asp-validation-for="StartDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="EndDate" class="control-label"></label>
+        <input asp-for="EndDate" class="form-control" type="date" />
+        <span asp-validation-for="EndDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group" id="halfDayGroup">
+        <div class="form-check">
+            <input asp-for="IsHalfDay" class="form-check-input" />
+            <label asp-for="IsHalfDay" class="form-check-label"></label>
+        </div>
+    </div>
+    <div class="form-group mt-3">
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        // Disable type selection and adjust UI based on existing type
+        document.getElementById('typeSelect').value = '@Model.Type';
+        document.getElementById('halfDayGroup').style.display =
+            '@Model.Type' === 'Sick' ? 'none' : 'block';
+    </script>
+}

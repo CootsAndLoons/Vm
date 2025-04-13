@@ -1,0 +1,44 @@
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model IPagedList<VacationRequest>
+
+<h2>Pending Vacation Requests</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Requester</th>
+            <th>Type</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var request in Model)
+        {
+            <tr>
+                <td>@request.Requester.FirstName @request.Requester.LastName</td>
+                <td>@request.Type</td>
+                <td>@request.StartDate.ToShortDateString()</td>
+                <td>@request.EndDate.ToShortDateString()</td>
+                <td>
+                    <form method="post" style="display:inline">
+                        <button asp-action="Approve" asp-route-vacationRequestId="@request.Id"
+                                class="btn btn-success btn-sm">
+                            Approve
+                        </button>
+                    </form>
+                    <form method="post" style="display:inline">
+                        <button asp-action="Reject" asp-route-vacationRequestId="@request.Id"
+                                class="btn btn-danger btn-sm">
+                            Reject
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@Html.PagedListPager(Model, page => Url.Action("PendingApprovals", new { page }))

@@ -21,24 +21,6 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                     </ul>
-
-                    <ul class="navbar-nav ms-auto">
-                        <!-- Display user role in the top right -->
-                        @if (ViewBag.UserRole != null)
-                        {
-                            <li class="nav-item">
-                                <span class="navbar-text">Role: @ViewBag.UserRole</span>
-                            </li>
-                        }
-                        else
-                        {
-                            <li class="nav-item">
-                                <span class="navbar-text">Role: Not Logged</span>
-                            </li>
-                        }
-                    </ul>
-
-
                     <partial name="_LoginPartial" />
                 </div>
             </div>
