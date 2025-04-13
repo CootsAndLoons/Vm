@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\",
+  "WorkspaceRootPath": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\views\\vacationrequest\\pendingapprovals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\vacationrequest\\pendingapprovals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\controllers\\vacationrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\controllers\\vacationrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\controllers\\vacationrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\views\\vacationrequest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\vacationrequest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\views\\vacationrequest\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\vacationrequest\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\ivan stajkov\\onedrive\\desktop\\vm\\vm\\vacationmanager\\vm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|c:\\users\\bsspi\\desktop\\vacation manager\\vm\\vacationmanager\\vm\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6244E236-1CA0-4402-B8A0-55632C89B646}|Vm\\Vm.csproj|solutionrelative:vm\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Vm\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Vm\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-13T02:28:31.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\VacationRequest\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Vm\\Views\\VacationRequest\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\VacationRequest\\Edit.cshtml",
-              "RelativeToolTip": "Vm\\Views\\VacationRequest\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-13T02:10:17.754Z",
+              "DocumentIndex": 0,
+              "Title": "VacationRequestController.cs",
+              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Controllers\\VacationRequestController.cs",
+              "RelativeDocumentMoniker": "Vm\\Controllers\\VacationRequestController.cs",
+              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Controllers\\VacationRequestController.cs",
+              "RelativeToolTip": "Vm\\Controllers\\VacationRequestController.cs",
+              "ViewState": "AgIAANUAAAAAAAAAAAAiwNEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T07:06:28.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\VacationRequest\\Index.cshtml",
-              "RelativeDocumentMoniker": "Vm\\Views\\VacationRequest\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\VacationRequest\\Index.cshtml",
-              "RelativeToolTip": "Vm\\Views\\VacationRequest\\Index.cshtml",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEEAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-13T02:04:03.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PendingApprovals.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\VacationRequest\\PendingApprovals.cshtml",
-              "RelativeDocumentMoniker": "Vm\\Views\\VacationRequest\\PendingApprovals.cshtml",
-              "ToolTip": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Views\\VacationRequest\\PendingApprovals.cshtml",
-              "RelativeToolTip": "Vm\\Views\\VacationRequest\\PendingApprovals.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAUwDMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-13T01:52:03.42Z",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Vm\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Vm\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T06:54:49.914Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "VacationRequestController.cs",
-              "DocumentMoniker": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Controllers\\VacationRequestController.cs",
-              "RelativeDocumentMoniker": "Vm\\Controllers\\VacationRequestController.cs",
-              "ToolTip": "C:\\Users\\Ivan Stajkov\\OneDrive\\Desktop\\Vm\\Vm\\VacationManager\\Vm\\Controllers\\VacationRequestController.cs",
-              "RelativeToolTip": "Vm\\Controllers\\VacationRequestController.cs",
-              "ViewState": "AgIAAKQAAAAAAAAAAAD4v7EAAABKAAAAAAAAAA==",
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Vm\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Vm\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwCkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T01:49:54.624Z",
+              "WhenOpened": "2025-04-12T20:20:01.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Vm\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bsspi\\Desktop\\Vacation manager\\Vm\\VacationManager\\Vm\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Vm\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T18:05:51.38Z",
               "EditorCaption": ""
             }
           ]
